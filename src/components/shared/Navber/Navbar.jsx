@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="navbar bg-base-100 container">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
+          <div tabIndex={0} role="button" className="cursor-pointer md:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -47,10 +47,10 @@ const Navbar = () => {
       <div className="navbar-center">
         <img className="w-8 md:w-16 lg:w-20" src={logo} alt="" />
       </div>
-      <div className="navbar-end flex items-center gap-2 md:gap-12">
-        <p className="flex items-center gap-3">Login <FaRegUser /></p>
-        <p className="text-xl"><FaSearch></FaSearch></p>
-        <p className="text-xl"><TbShoppingBag /></p>
+      <div className="navbar-end flex items-center gap-4 md:gap-12">
+        <p className="flex items-center gap-2 cursor-pointer">Login <span className="hidden md:block"><FaRegUser /></span></p>
+        <p className="md:text-xl cursor-pointer"><FaSearch></FaSearch></p>
+        <p className="text-[21px] md:text-2xl cursor-pointer"><TbShoppingBag /></p>
       </div>
     </div>
   );
