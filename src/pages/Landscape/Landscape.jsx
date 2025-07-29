@@ -27,6 +27,21 @@ const Landscape = () => {
     title="JF Privezy Grass Wall"
     price="₹1,646.10 – ₹18,284.10"
     ></SliderCard>, 
+    <SliderCard
+    img={img2}
+    title="JF Privezy Grass Wall"
+    price="₹1,646.10 – ₹18,284.10"
+    ></SliderCard>, 
+    <SliderCard
+    img={img1}
+    title="JF Privezy Grass Wall"
+    price="₹1,646.10 – ₹18,284.10"
+    ></SliderCard>, 
+    <SliderCard
+    img={img3}
+    title="JF Privezy Grass Wall"
+    price="₹1,646.10 – ₹18,284.10"
+    ></SliderCard>, 
   ];
     return (
             <div className="my-8 md:my-20 lg:my-28">

@@ -1,6 +1,7 @@
 import Agricultural from "./Agricultural/Agricultural";
 import Landscape from "./Landscape/Landscape";
 import Slider from "./Slider/Slider";
+import StatasSection from "./StatasSection/StatasSection";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
             <Slider></Slider>
             <Agricultural></Agricultural>
             <Landscape></Landscape>
+            <StatasSection></StatasSection>
         </div>
     );
 };

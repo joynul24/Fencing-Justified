@@ -15,10 +15,10 @@ const Slider = () => {
     return (
         <div className="container relative">
             {/* Custom Arrows */}
-            <div ref={prevRef} className=" absolute left-3 top-1/2 transform -translate-y-1/2 z-10 bg-[#B0DD1D] p-3 rounded-full cursor-pointer hover:bg-[#c6e75b] md:text-2xl">
+            <div ref={prevRef} className=" absolute -left-2 top-1/2 transform -translate-y-1/2 z-10 bg-[#B0DD1D] p-3 rounded-full cursor-pointer hover:bg-[#c6e75b] md:text-2xl">
                 <FaArrowLeft />
             </div>
-            <div ref={nextRef} className=" absolute right-3 top-1/2 transform -translate-y-1/2 z-10 bg-[#B0DD1D] p-3 rounded-full cursor-pointer hover:bg-[#c6e75b] md:text-2xl">
+            <div ref={nextRef} className=" absolute -right-2 top-1/2 transform -translate-y-1/2 z-10 bg-[#B0DD1D] p-3 rounded-full cursor-pointer hover:bg-[#c6e75b] md:text-2xl">
                 <FaArrowRight />
             </div>
 
