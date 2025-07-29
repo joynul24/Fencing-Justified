@@ -75,14 +75,14 @@ const SectionSlider = ({
       {/* Custom Arrows */}
       <div
         ref={prevRef}
-        className="custom-prev absolute -left-4 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-[#B0DD1D] hover:bg-[#c6e75b] rounded-full p-2 shadow"
+        className="custom-prev absolute -left-2 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-[#B0DD1D] hover:bg-[#c6e75b] rounded-full p-2 shadow"
       >
         <FaArrowLeft />
       </div>
 
       <div
         ref={nextRef}
-        className="custom-next absolute -right-4 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-[#B0DD1D] hover:bg-[#c6e75b] rounded-full p-2 shadow"
+        className="custom-next absolute -right-2 top-1/2 -translate-y-1/2 z-10 cursor-pointer bg-[#B0DD1D] hover:bg-[#c6e75b] rounded-full p-2 shadow"
       >
         <FaArrowRight />
       </div>

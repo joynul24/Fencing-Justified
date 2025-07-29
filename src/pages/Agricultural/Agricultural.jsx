@@ -44,7 +44,7 @@ const Agricultural = () => {
     ></SliderCard>,
   ];
   return (
-    <div className="my-8 md:my-20 lg:my-28">
+    <div className="md:my-20 lg:my-28">
       <div className="container">
       <h1 className="text-xl md:text-3xl lg:text-4xl font-medium">Agricultural Products</h1>
       <div className="mt-5 md:mt-8">
