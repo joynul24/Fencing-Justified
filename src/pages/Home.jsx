@@ -1,4 +1,5 @@
 import Agricultural from "./Agricultural/Agricultural";
+import Landscape from "./Landscape/Landscape";
 import Slider from "./Slider/Slider";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <Slider></Slider>
             <Agricultural></Agricultural>
+            <Landscape></Landscape>
         </div>
     );
 };
