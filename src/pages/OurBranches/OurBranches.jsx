@@ -1,22 +1,3 @@
-
-// const OurBranches = () => {
-//     return (
-//         <div className="max-w-7xl mx-auto">
-//             <div className="flex justify-center">
-//                 <button className="btn-primary">Our Branches</button>
-//                 {/* Tabs Section */}
-                
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default OurBranches;
-
-
-
-
-
 import { useState } from "react";
 import img1 from "../../assets/Frame-6.png"
 import img2 from "../../assets/Frame-4.png"

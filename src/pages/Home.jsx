@@ -1,4 +1,5 @@
 import Agricultural from "./Agricultural/Agricultural";
+import ContactFooter from "./ContactFooter/ContactFooter";
 import CustomerLove from "./CustomerLove/CustomerLove";
 import Landscape from "./Landscape/Landscape";
 import OurBranches from "./OurBranches/OurBranches";
@@ -18,6 +19,7 @@ const Home = () => {
             <Services></Services>
             <CustomerLove></CustomerLove>
             <OurBranches></OurBranches>
+            <ContactFooter></ContactFooter>
         </div>
     );
 };
