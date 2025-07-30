@@ -61,6 +61,9 @@ const WhyChooseUs = () => {
             </p>
           </div>
         </div>
+        <div className="flex justify-center my-5">
+          <button className="btn-primary">Contac Us</button>
+        </div>
       </div>
     </div>
   );
