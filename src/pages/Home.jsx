@@ -1,6 +1,7 @@
 import Agricultural from "./Agricultural/Agricultural";
 import CustomerLove from "./CustomerLove/CustomerLove";
 import Landscape from "./Landscape/Landscape";
+import OurBranches from "./OurBranches/OurBranches";
 import Services from "./Services/Services";
 import Slider from "./Slider/Slider";
 import StatasSection from "./StatasSection/StatasSection";
@@ -16,6 +17,7 @@ const Home = () => {
             <WhyChooseUs></WhyChooseUs>
             <Services></Services>
             <CustomerLove></CustomerLove>
+            <OurBranches></OurBranches>
         </div>
     );
 };
