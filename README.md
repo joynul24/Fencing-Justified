@@ -1,21 +1,51 @@
-# React template
+# 🛡️ Fencing Justified
 
-As React 19 is new, this scaffolding project is for everyone who wants to start coding in React 19.
+**Fencing Justified** is a modern, responsive web application built to showcase fencing services across multiple cities in India. It features a clean UI, interactive image-based navigation, and location-based contact sections.
 
-It has:
+> This task was done for a hiring test sent by **Abdur Razzak** from [abdur-razzak.online](https://abdur-razzak.online/).
+> 
+> Used **react-icons** for social media icons as no explicit asset was provided.
 
-- Vite
-- React 19.0(Stable Version)
-- React Router
-- Firebase
-- Sweetalert2
-- TailwindCSS 4.x
-- daisyUi 5
+---
 
-## Create Your Own React 19 Project with Vite and TailwindCSS
+## 🚀 Live Demo
 
-There are multiple ways you can utilize this repository to create your own project. The most straightforward way is by using the follwoing command from the command prompt/terminal:
+🔗 [Visit Website](https://fencing-justified-25.netlify.app/)
 
-```bash
-npx degit rubel04/React-template-with-tailwind-daisyui-react-router-vite#main <YOUR_PROJECT_NAME>
-```
+---
+
+## 🧑‍💻 Technologies Used
+
+- **React.js** (with functional components & hooks)
+- **React Router DOM** for routing
+- **Tailwind CSS** for modern and responsive styling
+- **Google Maps Embed API** for location views
+- **Responsive Grid System**
+- **Conditional Component Rendering**
+- **React Icons** for clean and scalable social icons
+- **Swiper.js** for image sliders
+
+---
+
+## 📸 Features
+
+- ✅ Dynamic city-based map sections (Chennai, Hyderabad, Goa, Kochi, Mumbai, Coimbatore, etc.)
+- ✅ Clickable images to show location-specific components
+- ✅ Responsive design for mobile, tablet, and desktop
+- ✅ Fast loading and optimized images
+- ✅ Clean and semantic code structure
+- ✅ Swiper awesome Slider
+
+---
+
+
+---
+
+## 📝 Author
+
+**Joynul Abedin**  
+Junior MERN Stack Developer  
+📧 joynuloa969@gmail.com
+
+---
+

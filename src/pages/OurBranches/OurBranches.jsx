@@ -75,6 +75,9 @@ const OurBranches = () => {
 
   return (
     <div className="max-w-7xl mx-auto py-10 md:py-20">
+      <div className="flex justify-center mb-10">
+        <button className="btn-primary">Our Branches</button>
+      </div>
       <div className="flex justify-center gap-6 flex-wrap">
         {branchesData.map((branch) => (
           <div
